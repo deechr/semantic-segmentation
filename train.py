@@ -36,7 +36,7 @@ import sys
 import time
 import torch
 
-#des musst ich ändern
+
 from apex.apex import amp
 from runx.logx import logx
 from config import assert_and_infer_cfg, update_epoch, cfg
