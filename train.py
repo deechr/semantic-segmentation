@@ -296,7 +296,8 @@ if 'WORLD_SIZE' in os.environ and args.apex:
 if args.apex:
     print('Global Rank: {} Local Rank: {}'.format(
         args.global_rank, args.local_rank))
-    torch.cuda.set_device(args.local_rank)
+   print ("hier kommt setdevice") 
+   torch.cuda.set_device(args.local_rank)
     torch.distributed.init_process_group(backend='nccl',
                                          init_method='env://')
 
