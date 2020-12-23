@@ -79,19 +79,19 @@ __C.DATASET.CITYSCAPES_DIR = \
   os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/Cityscapes')
 __C.DATASET.CITYSCAPES_CUSTOMCOARSE = \
   os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/Cityscapes')
-#__C.DATASET.CENTROID_ROOT = \
-#  os.path.join(__C.ASSETS_PATH, 'uniform_centroids')
-#SDC Augmented Cityscapes Dir Location
-#__C.DATASET.CITYSCAPES_AUG_DIR = ''
-#Mapillary Dataset Dir Location
-#__C.DATASET.MAPILLARY_DIR = os.path.join(__C.ASSETS_PATH, 'data/Mapillary/data')
-#Kitti Dataset Dir Location
-#__C.DATASET.KITTI_DIR = ''
-#SDC Augmented Kitti Dataset Dir Location
-#__C.DATASET.KITTI_AUG_DIR = ''
-#Camvid Dataset Dir Location
-#__C.DATASET.CAMVID_DIR = ''
-#Number of splits to support
+__C.DATASET.CENTROID_ROOT = \
+  os.path.join(__C.ASSETS_PATH, 'uniform_centroids')
+SDC Augmented Cityscapes Dir Location
+__C.DATASET.CITYSCAPES_AUG_DIR = ''
+Mapillary Dataset Dir Location
+__C.DATASET.MAPILLARY_DIR = os.path.join(__C.ASSETS_PATH, 'data/Mapillary/data')
+Kitti Dataset Dir Location
+__C.DATASET.KITTI_DIR = ''
+SDC Augmented Kitti Dataset Dir Location
+__C.DATASET.KITTI_AUG_DIR = ''
+Camvid Dataset Dir Location
+__C.DATASET.CAMVID_DIR = ''
+Number of splits to support
 __C.DATASET.CITYSCAPES_SPLITS = 3
 __C.DATASET.MEAN = [0.485, 0.456, 0.406]
 __C.DATASET.STD = [0.229, 0.224, 0.225]
