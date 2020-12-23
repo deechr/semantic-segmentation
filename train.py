@@ -298,6 +298,7 @@ if args.apex:
         args.global_rank, args.local_rank))
     print ("hier komt setdevice")
     torch.cuda.set_device(args.local_rank)
+    print ("NACH setdevice")
     torch.distributed.init_process_group(backend='nccl',
                                          init_method='env://')
 
