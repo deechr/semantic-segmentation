@@ -82,7 +82,7 @@ __C.DATASET.CITYSCAPES_CUSTOMCOARSE = \
 __C.DATASET.CENTROID_ROOT = \
   os.path.join(__C.ASSETS_PATH, 'uniform_centroids')
 SDC Augmented Cityscapes Dir Location
-__C.DATASET.CITYSCAPES_AUG_DIR = ''
+__C.DATASET.CITYSCAPES_AUG_DIR = '/content/drive/My Drive/DataMining/Cityscapes'
 Mapillary Dataset Dir Location
 __C.DATASET.MAPILLARY_DIR = os.path.join(__C.ASSETS_PATH, 'data/Mapillary/data')
 Kitti Dataset Dir Location
