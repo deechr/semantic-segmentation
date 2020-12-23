@@ -91,7 +91,7 @@ __C.DATASET.CENTROID_ROOT = \
 #__C.DATASET.KITTI_AUG_DIR = ''
 #Camvid Dataset Dir Location
 #__C.DATASET.CAMVID_DIR = ''
-Number of splits to support
+#Number of splits to support
 __C.DATASET.CITYSCAPES_SPLITS = 3
 __C.DATASET.MEAN = [0.485, 0.456, 0.406]
 __C.DATASET.STD = [0.229, 0.224, 0.225]
