@@ -14,7 +14,7 @@ HPARAMS: [
    eval_folder: './imgs/test_imgs2',
    dump_assets: true,
    dump_all_images: true,
-   n_scales: "0.5,1.0,2.0",
+   n_scales: "1.0,2.0",
    snapshot: "ASSETS_PATH/seg_weights/cityscapes_ocrnet.HRNet_Mscale_outstanding-turtle.pth",
    arch: ocrnet.HRNet_Mscale,
    result_dir: LOGDIR,
