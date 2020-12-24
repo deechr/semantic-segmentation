@@ -11,7 +11,7 @@ HPARAMS: [
    fp16: true,
    bs_val: 1,
    eval: folder,
-   eval_folder: '/content/drive/My Drive/DataMining/test',
+   eval_folder: './imgs/test_imgs',
    dump_assets: true,
    dump_all_images: true,
    n_scales: "0.5,1.0,2.0",
