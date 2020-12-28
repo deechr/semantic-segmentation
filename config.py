@@ -76,9 +76,9 @@ __C.TRAIN.FP16 = False
 __C.DATASET = AttrDict()
 #Cityscapes Dir Location
 __C.DATASET.CITYSCAPES_DIR = \
-  os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/Cityscapes')
+  os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/alter/Cityscapes')
 __C.DATASET.CITYSCAPES_CUSTOMCOARSE = \
-  os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/Cityscapes')
+  os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/alter/Cityscapes')
 __C.DATASET.CENTROID_ROOT = \
   os.path.join(__C.ASSETS_PATH, 'uniform_centroids')
 #SDC Augmented Cityscapes Dir Location
