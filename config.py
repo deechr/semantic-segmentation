@@ -49,7 +49,7 @@ cfg = __C
 __C.GLOBAL_RANK = 0
 __C.EPOCH = 0
 # Absolute path to a location to keep some large files, not in this dir.
-__C.ASSETS_PATH = '/content/drive/My Drive/DataMining/alter/large_asset_dir'
+__C.ASSETS_PATH = '/content/drive/My Drive/DataMining/large_asset_dir'
 
 # Use class weighted loss per batch to increase loss for low pixel count classes per batch
 __C.BATCH_WEIGHTING = False
@@ -76,9 +76,9 @@ __C.TRAIN.FP16 = False
 __C.DATASET = AttrDict()
 #Cityscapes Dir Location
 __C.DATASET.CITYSCAPES_DIR = \
-  os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/alter/Cityscapes')
+  os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/Cityscapes')
 __C.DATASET.CITYSCAPES_CUSTOMCOARSE = \
-  os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/alter/Cityscapes')
+  os.path.join(__C.ASSETS_PATH, '/content/drive/My Drive/DataMining/Cityscapes')
 __C.DATASET.CENTROID_ROOT = \
   os.path.join(__C.ASSETS_PATH, 'uniform_centroids')
 #SDC Augmented Cityscapes Dir Location
